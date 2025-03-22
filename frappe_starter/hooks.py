@@ -1,5 +1,5 @@
-app_name = "psoc"
-app_title = "PSoC"
+app_name = "frappe_starter"
+app_title = "frappe_starter"
 app_publisher = "Keerthana R"
 app_description = "Platform for Season of Commits"
 app_email = "grittypuffy@riseup.net"
@@ -13,11 +13,11 @@ app_license = "agpl-3.0"
 # Each item in the list will be shown as an app in the apps page
 # add_to_apps_screen = [
 # 	{
-# 		"name": "psoc",
-# 		"logo": "/assets/psoc/logo.png",
-# 		"title": "PSoC",
-# 		"route": "/psoc",
-# 		"has_permission": "psoc.api.permission.has_app_permission"
+# 		"name": "frappe_starter",
+# 		"logo": "/assets/frappe_starter/logo.png",
+# 		"title": "frappe_starter",
+# 		"route": "/frappe_starter",
+# 		"has_permission": "frappe_starter.api.permission.has_app_permission"
 # 	}
 # ]
 
@@ -25,15 +25,15 @@ app_license = "agpl-3.0"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/psoc/css/psoc.css"
-# app_include_js = "/assets/psoc/js/psoc.js"
+# app_include_css = "/assets/frappe_starter/css/frappe_starter.css"
+# app_include_js = "/assets/frappe_starter/js/frappe_starter.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/psoc/css/psoc.css"
-# web_include_js = "/assets/psoc/js/psoc.js"
+# web_include_css = "/assets/frappe_starter/css/frappe_starter.css"
+# web_include_js = "/assets/frappe_starter/js/frappe_starter.js"
 
 # include custom scss in every website theme (without file extension ".scss")
-# website_theme_scss = "psoc/public/scss/website"
+# website_theme_scss = "frappe_starter/public/scss/website"
 
 # include js, css files in header of web form
 # webform_include_js = {"doctype": "public/js/doctype.js"}
@@ -51,7 +51,7 @@ app_license = "agpl-3.0"
 # Svg Icons
 # ------------------
 # include app icons in desk
-# app_include_icons = "psoc/public/icons.svg"
+# app_include_icons = "frappe_starter/public/icons.svg"
 
 # Home Pages
 # ----------
@@ -78,43 +78,43 @@ app_license = "agpl-3.0"
 
 # add methods and filters to jinja environment
 # jinja = {
-# 	"methods": "psoc.utils.jinja_methods",
-# 	"filters": "psoc.utils.jinja_filters"
+# 	"methods": "frappe_starter.utils.jinja_methods",
+# 	"filters": "frappe_starter.utils.jinja_filters"
 # }
 
 # Installation
 # ------------
 
-# before_install = "psoc.install.before_install"
-# after_install = "psoc.install.after_install"
+# before_install = "frappe_starter.install.before_install"
+# after_install = "frappe_starter.install.after_install"
 
 # Uninstallation
 # ------------
 
-# before_uninstall = "psoc.uninstall.before_uninstall"
-# after_uninstall = "psoc.uninstall.after_uninstall"
+# before_uninstall = "frappe_starter.uninstall.before_uninstall"
+# after_uninstall = "frappe_starter.uninstall.after_uninstall"
 
 # Integration Setup
 # ------------------
 # To set up dependencies/integrations with other apps
 # Name of the app being installed is passed as an argument
 
-# before_app_install = "psoc.utils.before_app_install"
-# after_app_install = "psoc.utils.after_app_install"
+# before_app_install = "frappe_starter.utils.before_app_install"
+# after_app_install = "frappe_starter.utils.after_app_install"
 
 # Integration Cleanup
 # -------------------
 # To clean up dependencies/integrations with other apps
 # Name of the app being uninstalled is passed as an argument
 
-# before_app_uninstall = "psoc.utils.before_app_uninstall"
-# after_app_uninstall = "psoc.utils.after_app_uninstall"
+# before_app_uninstall = "frappe_starter.utils.before_app_uninstall"
+# after_app_uninstall = "frappe_starter.utils.after_app_uninstall"
 
 # Desk Notifications
 # ------------------
 # See frappe.core.notifications.get_notification_config
 
-# notification_config = "psoc.notifications.get_notification_config"
+# notification_config = "frappe_starter.notifications.get_notification_config"
 
 # Permissions
 # -----------
@@ -153,39 +153,39 @@ app_license = "agpl-3.0"
 
 # scheduler_events = {
 # 	"all": [
-# 		"psoc.tasks.all"
+# 		"frappe_starter.tasks.all"
 # 	],
 # 	"daily": [
-# 		"psoc.tasks.daily"
+# 		"frappe_starter.tasks.daily"
 # 	],
 # 	"hourly": [
-# 		"psoc.tasks.hourly"
+# 		"frappe_starter.tasks.hourly"
 # 	],
 # 	"weekly": [
-# 		"psoc.tasks.weekly"
+# 		"frappe_starter.tasks.weekly"
 # 	],
 # 	"monthly": [
-# 		"psoc.tasks.monthly"
+# 		"frappe_starter.tasks.monthly"
 # 	],
 # }
 
 # Testing
 # -------
 
-# before_tests = "psoc.install.before_tests"
+# before_tests = "frappe_starter.install.before_tests"
 
 # Overriding Methods
 # ------------------------------
 #
 # override_whitelisted_methods = {
-# 	"frappe.desk.doctype.event.event.get_events": "psoc.event.get_events"
+# 	"frappe.desk.doctype.event.event.get_events": "frappe_starter.event.get_events"
 # }
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
 # along with any modifications made in other Frappe apps
 # override_doctype_dashboards = {
-# 	"Task": "psoc.task.get_dashboard_data"
+# 	"Task": "frappe_starter.task.get_dashboard_data"
 # }
 
 # exempt linked doctypes from being automatically cancelled
@@ -199,13 +199,13 @@ app_license = "agpl-3.0"
 
 # Request Events
 # ----------------
-# before_request = ["psoc.utils.before_request"]
-# after_request = ["psoc.utils.after_request"]
+# before_request = ["frappe_starter.utils.before_request"]
+# after_request = ["frappe_starter.utils.after_request"]
 
 # Job Events
 # ----------
-# before_job = ["psoc.utils.before_job"]
-# after_job = ["psoc.utils.after_job"]
+# before_job = ["frappe_starter.utils.before_job"]
+# after_job = ["frappe_starter.utils.after_job"]
 
 # User Data Protection
 # --------------------
@@ -235,7 +235,7 @@ app_license = "agpl-3.0"
 # --------------------------------
 
 # auth_hooks = [
-# 	"psoc.auth.validate"
+# 	"frappe_starter.auth.validate"
 # ]
 
 # Automatically update python controller files with type annotations for this app.
