@@ -1,6 +1,6 @@
-### PSoC
+### Frappe Starter
 
-Platform for Season of Commits
+Frappe Starter template
 
 ### Installation
 
@@ -9,7 +9,7 @@ You can install this app using the [bench](https://github.com/frappe/bench) CLI:
 ```bash
 cd $PATH_TO_YOUR_BENCH
 bench get-app $URL_OF_THIS_REPO --branch main
-bench install-app psoc
+bench install-app frappe-starter
 ```
 
 ### Contributing

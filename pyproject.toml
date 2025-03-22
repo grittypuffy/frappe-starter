@@ -1,9 +1,9 @@
 [project]
-name = "psoc"
+name = "frappe-starter"
 authors = [
-    { name = "Team PSoC", email = "psoc@riseup.net"}
+    { name = "Keerthana", email = "grittypuffy@riseup.net"}
 ]
-description = "Platform for Season of Commits"
+description = "Frappe Starter"
 requires-python = ">=3.10"
 readme = "README.md"
 dynamic = ["version"]

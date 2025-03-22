@@ -1,7 +1,7 @@
 {
-  "name": "psoc",
+  "name": "frappe-starter",
   "version": "1.0.0",
-  "description": "Platform for Season of Commits",
+  "description": "Frappe Starter",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
